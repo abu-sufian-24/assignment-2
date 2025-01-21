@@ -350,6 +350,7 @@ a {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, 2fr);
+    margin: 0 auto;
 
     .big-card {
       grid-template-columns: repeat(1, 2fr);
@@ -404,10 +405,12 @@ a {
         background: #fff;
         border-radius: 16px;
         position: relative;
+        width: 330px;
 
         img {
           border-top-left-radius: 16px;
           border-top-right-radius: 16px;
+          width: 100%;
         }
 
         h3 {
@@ -419,7 +422,7 @@ a {
         }
         button {
           position: absolute;
-          top: 50%;
+          top: 52%;
           left: 30px;
           background-color: #95b226;
           color: #ffffff;
@@ -490,6 +493,7 @@ a {
             padding: 10px 15px;
             font-size: 9px;
             left: 15px;
+            top: 48%;
           }
         }
       }
